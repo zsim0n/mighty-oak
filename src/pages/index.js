@@ -19,8 +19,8 @@ class HomeIndex extends React.Component {
                 <Helmet
                     title="TIMU.IO"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Timu.io' },
+                        { name: 'keywords', content: 'Great Software, Team, Purpose, g' },
                     ]}
                 >
                 </Helmet>
@@ -31,57 +31,46 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Timu (Swahili): (noun) team</h3>
+                                <p>Team (group of people, especially in a sport) kushinda timu / win the team</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Timu (Māori): (verb) to be ebbing, ebb.</h3>
+                                <p>Kua timu te tai, kua kitea ngā kōpua, ngā pokere (TTT 1/9/1928:843). / The tide has ebbed and the deep pools, the holes, are revealed. </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Timu (Nordic name)</h3>
+                                <p>Greenlandic younger spelling of Timo. A boys' name is of Greek derivation, and the name Timo means "God's honor".</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Timu (Esperanto) : imperative of timi </h3>
+                                <p>timi (present timas, past timis, future timos, conditional timus, volitive timu) (transitive) to fear - Li timas araneojn! / He is afraid of spiders!</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Timu (Samoan) : (Noun) rain</h3>
+                                <p>From Proto-Polynesian *timu, from Proto-Oceanic *timuʀ, from Proto-Malayo-Polynesian *timuʀ, from Proto-Austronesian *timuʀ.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Timu (Japanese): Tim (ティム)</h3>
+                                <p>The name Tim in Japanese Katakana is ティム which in romaji is timu. Katakana is the standard translation for names into Japanese, Tim in Japanese Hiragana, the non-standard translation for names into Japanese, is てぃむ.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
                     </section>
                 </div>
 
