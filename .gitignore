@@ -8,3 +8,9 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
+
+# Local Netlify folder
+.netlify
+# @netlify/plugin-gatsby ignores start
+netlify/functions/gatsby
+# @netlify/plugin-gatsby ignores end
