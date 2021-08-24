@@ -1,10 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <Link to="/" className="logo"><strong>Timu</strong> <span>.IO</span></Link>
+        <Link to="/" className="logo"><strong>Timu.io</strong> <span>the next thing</span></Link>
     </header>
 )
 
